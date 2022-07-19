@@ -260,6 +260,7 @@ to{
      -moz-border-radius:0 ;
      -ms-border-radius:0 ;
      -o-border-radius:0 ;
+     font-family: "Oswald" ,sans-serif;
 
 }
 .updates-container input[type="email"]{
@@ -282,6 +283,20 @@ to{
      border: none;
      margin: 0;
 }
-.updates-container:hover{
-   
+.updates-container .btn{
+   padding:0.7rem 2rem; 
+}
+
+/*=================================
+      footer section start
+   =================================*/
+.footer{
+   text-align: center;
+   padding: 3rem;
+   background: #000;
+   color: #fff;
+}
+.footer p{
+   text-transform: capitalize;
+   font-size: 1.6rem;
 }

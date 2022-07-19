@@ -2,6 +2,19 @@
       Responsive codes 
 ============================ */
 
+/*==========================================
+      Medium type device 
+         ========================================*/
+@media screen and (min-width:757px) and (max-width:1080px) {
+      html{
+         font-size: 50%;
+      }
+      .service img, .laptop img, .mobile img{
+         width: 75%;
+         height: auto;
+      } 
+}
+
 /* ============================
       IPad or Tablet styles
    ==================================*/
