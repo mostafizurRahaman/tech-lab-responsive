@@ -9,6 +9,9 @@
    html {
       font-size:45%;
    }
+   .header{
+      height: 400px;
+   }
    .services,.laptops,.mobiles{
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 4rem;
@@ -78,4 +81,11 @@
    .laptop_part h3,.mobile_part h3{
       text-align: center;
    }
+   .updates-container{
+      height: 13rem;
+   }
+   .updates-container input[type="email"]{
+      width: 18rem;
+      height: 3.8rem;
+ }
 }
